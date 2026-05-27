@@ -1,0 +1,63 @@
+name: Generate static trophy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+env:
+  TARGET_BRANCH: ops/static-trophy-updates
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v5
+        with:
+          version: 9
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: "pnpm"
+          cache-dependency-path: frontend/pnpm-lock.yaml
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate static trophy SVG
+        working-directory: frontend
+        env:
+          ATCODER_USERNAME: jj1guj
+          TROPHY_OUTPUT_PATH: ../site/atcoder/jj1guj.svg
+        run: pnpm generate:static:trophy
+
+      - name: Publish generated site branch
+        run: |
+          git fetch origin "$TARGET_BRANCH" || true
+
+          if git show-ref --verify --quiet "refs/remotes/origin/$TARGET_BRANCH"; then
+            if git diff --quiet "origin/$TARGET_BRANCH" -- site; then
+              echo "No changes to publish"
+              exit 0
+            fi
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$TARGET_BRANCH"
+          git add site
+          git commit -m "[skip ci] chore: refresh static trophy"
+          git push --force-with-lease origin "HEAD:$TARGET_BRANCH"

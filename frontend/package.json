@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "generate:static:trophy": "tsx scripts/generate-static-trophy.ts",
     "lint": "biome check src",
     "lint:fix": "biome check --write src",
     "format": "biome format --write src",
@@ -49,6 +50,7 @@
     "@types/node": "^25.0.0",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "tsx": "^4.20.6",
     "ts-node": "^10.2.0",
     "tslib": "^2.3.1",
     "typescript": "^5.9.2"
