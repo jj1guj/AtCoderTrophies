@@ -130,7 +130,7 @@
           font-size="10"
           fill="#666"
         >
-          1.2kpt
+          1.3kpt
         </text>
         
     <style>
@@ -139,7 +139,7 @@
         width: 0px;
       }
       to {
-        width: 12.373333333333335px;
+        width: 17.226666666666667px;
       }
     }
     #AcceptedCount-rank-progress{
@@ -218,74 +218,12 @@
   </svg>
 
     
-    <svg
-      x="7"
-      y="35"
-      width="65"
-      height="65"
-      viewBox="0 0 30 30"
-      fill="#B0B0B0"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      
-    <path d="M7 10h2v4H7v-4z"/>
-    <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"/>
-    <path fill-rule="evenodd" d="M12.5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm-6-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/>
-    <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1H3zm2-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1H5z"/>
-    <circle
-      cx="8"
-      cy="6"
-      r="4"
-      fill="#FFF"
-    />
-    <text
-      x="6"
-      y="8"
-      font-family="Courier, Monospace"
-      font-size="7"
-      fill="#505050"
-    >
-      A
-    </text>
-  
-    </svg>
-    <svg
-      x="68"
-      y="35"
-      width="65"
-      height="65"
-      viewBox="0 0 30 30"
-      fill="#B0B0B0"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      
-    <path d="M7 10h2v4H7v-4z"/>
-    <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"/>
-    <path fill-rule="evenodd" d="M12.5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm-6-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/>
-    <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1H3zm2-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1H5z"/>
-    <circle
-      cx="8"
-      cy="6"
-      r="4"
-      fill="#FFF"
-    />
-    <text
-      x="6"
-      y="8"
-      font-family="Courier, Monospace"
-      font-size="7"
-      fill="#505050"
-    >
-      A
-    </text>
-  
-    </svg>
     <defs>
-      <linearGradient id="AAA" gradientTransform="rotate(45)">
+      <linearGradient id="S" gradientTransform="rotate(45)">
       
-      <stop offset="0%" stop-color="#B0B0B0"/>
-      <stop offset="70%" stop-color="#B0B0B0"/>
-      <stop offset="100%" stop-color="#9090C0"/>
+      <stop offset="0%" stop-color="#FAD200"/>
+      <stop offset="70%" stop-color="#FAD200"/>
+      <stop offset="100%" stop-color="#C8A090"/>
     
       </linearGradient>
     </defs>
@@ -295,7 +233,7 @@
       width="100"
       height="100"
       viewBox="0 0 30 30"
-      fill="url(#AAA)"
+      fill="url(#S)"
       xmlns="http://www.w3.org/2000/svg"
     >
       
@@ -314,9 +252,9 @@
       y="8"
       font-family="Courier, Monospace"
       font-size="7"
-      fill="#505050"
+      fill="#886000"
     >
-      A
+      S
     </text>
   
     </svg>
@@ -341,7 +279,7 @@
           font-size="10.5"
           fill="#666"
         >
-          Hyper Solver
+          Ultra Solver
         </text>
         <text
           x="50%"
@@ -352,7 +290,7 @@
           font-size="10"
           fill="#666"
         >
-          995pt
+          1.1kpt
         </text>
         
     <style>
@@ -361,7 +299,7 @@
         width: 0px;
       }
       to {
-        width: 79.2px;
+        width: 2.88px;
       }
     }
     #FortranUser-rank-progress{
@@ -574,7 +512,7 @@
           font-size="10"
           fill="#666"
         >
-          189.3kpt
+          206.0kpt
         </text>
         
     <style>
@@ -583,7 +521,7 @@
         width: 0px;
       }
       to {
-        width: 47.599999999999994px;
+        width: 56.53333333333333px;
       }
     }
     #RatedPointSum-rank-progress{
@@ -956,7 +894,7 @@
           font-size="10"
           fill="#666"
         >
-          280pt
+          295pt
         </text>
         
     <style>
@@ -965,7 +903,7 @@
         width: 0px;
       }
       to {
-        width: 9.6px;
+        width: 14.399999999999999px;
       }
     }
     #Pythonista-rank-progress{
@@ -1116,7 +1054,7 @@
           font-size="10"
           fill="#666"
         >
-          171pt
+          177pt
         </text>
         
     <style>
@@ -1125,7 +1063,7 @@
         width: 0px;
       }
       to {
-        width: 37.86666666666667px;
+        width: 41.06666666666666px;
       }
     }
     #CPlusPluser-rank-progress{
@@ -1276,7 +1214,7 @@
           font-size="10"
           fill="#666"
         >
-          14pt
+          15pt
         </text>
         
     <style>
@@ -1285,7 +1223,7 @@
         width: 0px;
       }
       to {
-        width: 24.347826086956523px;
+        width: 27.82608695652174px;
       }
     }
     #LongestStreak-rank-progress{
@@ -1436,7 +1374,7 @@
           font-size="10"
           fill="#666"
         >
-          67pt
+          96pt
         </text>
         
     <style>
@@ -1445,7 +1383,7 @@
         width: 0px;
       }
       to {
-        width: 27.200000000000003px;
+        width: 73.60000000000001px;
       }
     }
     #Rustacean-rank-progress{
@@ -1676,6 +1614,137 @@
           font-size="13"
           fill="#000"
         >
+          Gopher
+        </text>
+        <text
+          x="50%"
+          y="85"
+          text-anchor="middle"
+          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
+          font-weight="bold"
+          font-size="10.5"
+          fill="#666"
+        >
+          Beginner Solver
+        </text>
+        <text
+          x="50%"
+          y="97"
+          text-anchor="middle"
+          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
+          font-weight="bold"
+          font-size="10"
+          fill="#666"
+        >
+          10pt
+        </text>
+        
+    <style>
+    @keyframes GopherRankAnimation {
+      from {
+        width: 0px;
+      }
+      to {
+        width: 0px;
+      }
+    }
+    #Gopher-rank-progress{
+      animation: GopherRankAnimation 1s forwards ease-in-out;
+    }
+    </style>
+    <rect
+      x="15"
+      y="101"
+      rx="1"
+      width="80"
+      height="3.2"
+      opacity="0.3"
+      fill="#0366d6"
+    />
+    <rect
+      id="Gopher-rank-progress"
+      x="15"
+      y="101"
+      rx="1"
+      height="3.2"
+      fill="#0366d6"
+    />
+  
+      </svg>
+    
+      <svg
+        x="330"
+        y="110"
+        width="110"
+        height="110"
+        viewBox="0 0 110 110"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          width="109"
+          height="109"
+          stroke="#e1e4e8"
+          fill="#FFF"
+          stroke-opacity="1"
+          fill-opacity="1"
+        />
+        
+    
+    
+    <defs>
+      <linearGradient id="B" gradientTransform="rotate(45)">
+      
+      <stop offset="0%" stop-color="#A18D66"/>
+      <stop offset="70%" stop-color="#A18D66"/>
+      <stop offset="100%" stop-color="#816D96"/>
+    
+      </linearGradient>
+    </defs>
+    <svg
+      x="28"
+      y="20"
+      width="100"
+      height="100"
+      viewBox="0 0 30 30"
+      fill="url(#B)"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      
+    <path d="M7 10h2v4H7v-4z"/>
+    <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"/>
+    <path fill-rule="evenodd" d="M12.5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm-6-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/>
+    <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1H3zm2-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1H5z"/>
+    <circle
+      cx="8"
+      cy="6"
+      r="4"
+      fill="#FFF"
+    />
+    <text
+      x="6"
+      y="8"
+      font-family="Courier, Monospace"
+      font-size="7"
+      fill="#412D06"
+    >
+      B
+    </text>
+  
+    </svg>
+  
+        <text
+          x="50%"
+          y="18"
+          text-anchor="middle"
+          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
+          font-weight="bold"
+          font-size="13"
+          fill="#000"
+        >
           PyPyUser
         </text>
         <text
@@ -1735,7 +1804,7 @@
       </svg>
     
       <svg
-        x="330"
+        x="440"
         y="110"
         width="110"
         height="110"
@@ -1866,7 +1935,7 @@
       </svg>
     
       <svg
-        x="440"
+        x="550"
         y="110"
         width="110"
         height="110"
@@ -1997,8 +2066,139 @@
       </svg>
     
       <svg
-        x="550"
+        x="660"
         y="110"
+        width="110"
+        height="110"
+        viewBox="0 0 110 110"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          width="109"
+          height="109"
+          stroke="#e1e4e8"
+          fill="#FFF"
+          stroke-opacity="1"
+          fill-opacity="1"
+        />
+        
+    
+    
+    <defs>
+      <linearGradient id="C" gradientTransform="rotate(45)">
+      
+    <stop offset="0%" stop-color="#777"/>
+    <stop offset="50%" stop-color="#777"/>
+    <stop offset="100%" stop-color="#333"/>
+  
+      </linearGradient>
+    </defs>
+    <svg
+      x="28"
+      y="20"
+      width="100"
+      height="100"
+      viewBox="0 0 30 30"
+      fill="url(#C)"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      
+    <path d="M7 10h2v4H7v-4z"/>
+    <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"/>
+    <path fill-rule="evenodd" d="M12.5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm-6-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/>
+    <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1H3zm2-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1H5z"/>
+    <circle
+      cx="8"
+      cy="6"
+      r="4"
+      fill="#FFF"
+    />
+    <text
+      x="6"
+      y="8"
+      font-family="Courier, Monospace"
+      font-size="7"
+      fill="#333"
+    >
+      C
+    </text>
+  
+    </svg>
+  
+        <text
+          x="50%"
+          y="18"
+          text-anchor="middle"
+          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
+          font-weight="bold"
+          font-size="13"
+          fill="#000"
+        >
+          DartUser
+        </text>
+        <text
+          x="50%"
+          y="85"
+          text-anchor="middle"
+          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
+          font-weight="bold"
+          font-size="10.5"
+          fill="#666"
+        >
+          First AC
+        </text>
+        <text
+          x="50%"
+          y="97"
+          text-anchor="middle"
+          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
+          font-weight="bold"
+          font-size="10"
+          fill="#666"
+        >
+          4pt
+        </text>
+        
+    <style>
+    @keyframes DartUserRankAnimation {
+      from {
+        width: 0px;
+      }
+      to {
+        width: 60px;
+      }
+    }
+    #DartUser-rank-progress{
+      animation: DartUserRankAnimation 1s forwards ease-in-out;
+    }
+    </style>
+    <rect
+      x="15"
+      y="101"
+      rx="1"
+      width="80"
+      height="3.2"
+      opacity="0.3"
+      fill="#0366d6"
+    />
+    <rect
+      id="DartUser-rank-progress"
+      x="15"
+      y="101"
+      rx="1"
+      height="3.2"
+      fill="#0366d6"
+    />
+  
+      </svg>
+    
+      <svg
+        x="0"
+        y="220"
         width="110"
         height="110"
         viewBox="0 0 110 110"
@@ -2128,8 +2328,8 @@
       </svg>
     
       <svg
-        x="660"
-        y="110"
+        x="110"
+        y="220"
         width="110"
         height="110"
         viewBox="0 0 110 110"
@@ -2259,138 +2459,7 @@
       </svg>
     
       <svg
-        x="0"
-        y="220"
-        width="110"
-        height="110"
-        viewBox="0 0 110 110"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          width="109"
-          height="109"
-          stroke="#e1e4e8"
-          fill="#FFF"
-          stroke-opacity="1"
-          fill-opacity="1"
-        />
-        
-    
-    
-    <defs>
-      <linearGradient id="C" gradientTransform="rotate(45)">
-      
-    <stop offset="0%" stop-color="#777"/>
-    <stop offset="50%" stop-color="#777"/>
-    <stop offset="100%" stop-color="#333"/>
-  
-      </linearGradient>
-    </defs>
-    <svg
-      x="28"
-      y="20"
-      width="100"
-      height="100"
-      viewBox="0 0 30 30"
-      fill="url(#C)"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      
-    <path d="M7 10h2v4H7v-4z"/>
-    <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z"/>
-    <path fill-rule="evenodd" d="M12.5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm-6-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/>
-    <path d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1H3zm2-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1H5z"/>
-    <circle
-      cx="8"
-      cy="6"
-      r="4"
-      fill="#FFF"
-    />
-    <text
-      x="6"
-      y="8"
-      font-family="Courier, Monospace"
-      font-size="7"
-      fill="#333"
-    >
-      C
-    </text>
-  
-    </svg>
-  
-        <text
-          x="50%"
-          y="18"
-          text-anchor="middle"
-          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
-          font-weight="bold"
-          font-size="13"
-          fill="#000"
-        >
-          Gopher
-        </text>
-        <text
-          x="50%"
-          y="85"
-          text-anchor="middle"
-          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
-          font-weight="bold"
-          font-size="10.5"
-          fill="#666"
-        >
-          First AC
-        </text>
-        <text
-          x="50%"
-          y="97"
-          text-anchor="middle"
-          font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji"
-          font-weight="bold"
-          font-size="10"
-          fill="#666"
-        >
-          8pt
-        </text>
-        
-    <style>
-    @keyframes GopherRankAnimation {
-      from {
-        width: 0px;
-      }
-      to {
-        width: 62.22222222222222px;
-      }
-    }
-    #Gopher-rank-progress{
-      animation: GopherRankAnimation 1s forwards ease-in-out;
-    }
-    </style>
-    <rect
-      x="15"
-      y="101"
-      rx="1"
-      width="80"
-      height="3.2"
-      opacity="0.3"
-      fill="#0366d6"
-    />
-    <rect
-      id="Gopher-rank-progress"
-      x="15"
-      y="101"
-      rx="1"
-      height="3.2"
-      fill="#0366d6"
-    />
-  
-      </svg>
-    
-      <svg
-        x="110"
+        x="220"
         y="220"
         width="110"
         height="110"
